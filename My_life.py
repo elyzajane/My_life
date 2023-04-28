@@ -15,5 +15,7 @@ def write_to_file():
                 if more_lines.lower() == "n":
                     break
 
-# Print a message indicating the file has been written successfully
-# If an error occurs while writing to the file, ptint an error message
+        # Print a message indicating the file has been written successfully
+        print("The file mylife.txt has been written successfully.")
+    except IOError:
+        # If an error occurs while writing to the file, ptint an error message
