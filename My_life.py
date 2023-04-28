@@ -1,4 +1,7 @@
-# Open a writing file
+def write_to_file():
+    try:
+       # Open a writing file
+       with open("mylife.txt", "w") as file: 
 # Ask the user to input and write to file
 # Ask the user to input a line of text
 # Write the line to the file
