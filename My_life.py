@@ -1,3 +1,6 @@
+# Elyza Jane G. Relucio
+# A program that write multiple line of text contents into a text file mylife.txt.
+
 def write_to_file():
     try:
        # Open a writing file
@@ -16,9 +19,14 @@ def write_to_file():
                     break
 
         # Print a message indicating the file has been written successfully
+            print("\033[1;95m")
             print("The file mylife.txt has been written successfully.")
+            print("\033[0m")
+        
     except IOError:
         # If an error occurs while writing to the file, print an error message
+        print("\033[1;95m")
         print("An error occurred while writing to the file.")
+        print("\033[0m")
 
 write_to_file()
