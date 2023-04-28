@@ -8,7 +8,12 @@ def write_to_file():
                 line = input("Enter line: ")
 
                 # Write the line to the file
-                line = input("Enter line: ")
-# Ask the user if there are more lines to enter
+                file.write(line + "\n")
+
+                # Ask the user if there are more lines to enter
+                more_lines = input("Are there more lines y/n? ")
+                if more_lines.lower() == "n":
+                    break
+
 # Print a message indicating the file has been written successfully
 # If an error occurs while writing to the file, ptint an error message
