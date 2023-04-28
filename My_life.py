@@ -16,6 +16,9 @@ def write_to_file():
                     break
 
         # Print a message indicating the file has been written successfully
-        print("The file mylife.txt has been written successfully.")
+            print("The file mylife.txt has been written successfully.")
     except IOError:
-        # If an error occurs while writing to the file, ptint an error message
+        # If an error occurs while writing to the file, print an error message
+        print("An error occurred while writing to the file.")
+
+write_to_file()
